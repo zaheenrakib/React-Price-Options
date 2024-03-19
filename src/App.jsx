@@ -1,4 +1,5 @@
 import './App.css'
+import DateTimes from './components/DateTime/DateTimes'
 import LineChart from './components/LineChart/LineChart'
 import NavBar from './components/NavBar/NavBar'
 import Phones from './components/Phones/Phones'
@@ -17,6 +18,7 @@ function App() {
       <PriceOptions></PriceOptions>
       <LineChart></LineChart>
       <Phones></Phones>
+      <DateTimes></DateTimes>
       {/* <PieCharts></PieCharts> */}
     </>
   )
